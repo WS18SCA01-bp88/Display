@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Display.xcodeproj">
+      location = "self:/Users/bpavlov/git/SwiftClass/Display/DisplayTrait.xcodeproj">
    </FileRef>
 </Workspace>

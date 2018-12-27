@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8336D53521C5856A00E023CF /* Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Display.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8336D53521C5856A00E023CF /* DisplayTrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayTrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8336D53821C5856A00E023CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8336D53A21C5856A00E023CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8336D53D21C5856A00E023CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		8336D52C21C5856A00E023CF = {
 			isa = PBXGroup;
 			children = (
-				8336D53721C5856A00E023CF /* Display */,
+				8336D53721C5856A00E023CF /* DisplayTrait */,
 				8336D53621C5856A00E023CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		8336D53621C5856A00E023CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8336D53521C5856A00E023CF /* Display.app */,
+				8336D53521C5856A00E023CF /* DisplayTrait.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8336D53721C5856A00E023CF /* Display */ = {
+		8336D53721C5856A00E023CF /* DisplayTrait */ = {
 			isa = PBXGroup;
 			children = (
 				8336D53821C5856A00E023CF /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				8336D54121C5856B00E023CF /* LaunchScreen.storyboard */,
 				8336D54421C5856B00E023CF /* Info.plist */,
 			);
-			path = Display;
+			path = DisplayTrait;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8336D53421C5856A00E023CF /* Display */ = {
+		8336D53421C5856A00E023CF /* DisplayTrait */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8336D54721C5856B00E023CF /* Build configuration list for PBXNativeTarget "Display" */;
+			buildConfigurationList = 8336D54721C5856B00E023CF /* Build configuration list for PBXNativeTarget "DisplayTrait" */;
 			buildPhases = (
 				8336D53121C5856A00E023CF /* Sources */,
 				8336D53221C5856A00E023CF /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Display;
+			name = DisplayTrait;
 			productName = Display;
-			productReference = 8336D53521C5856A00E023CF /* Display.app */;
+			productReference = 8336D53521C5856A00E023CF /* DisplayTrait.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8336D53021C5856A00E023CF /* Build configuration list for PBXProject "Display" */;
+			buildConfigurationList = 8336D53021C5856A00E023CF /* Build configuration list for PBXProject "DisplayTrait" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8336D53421C5856A00E023CF /* Display */,
+				8336D53421C5856A00E023CF /* DisplayTrait */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,7 +282,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Display/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +291,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.balmes.Display;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +301,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Display/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.balmes.Display;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8336D53021C5856A00E023CF /* Build configuration list for PBXProject "Display" */ = {
+		8336D53021C5856A00E023CF /* Build configuration list for PBXProject "DisplayTrait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8336D54521C5856B00E023CF /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8336D54721C5856B00E023CF /* Build configuration list for PBXNativeTarget "Display" */ = {
+		8336D54721C5856B00E023CF /* Build configuration list for PBXNativeTarget "DisplayTrait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8336D54821C5856B00E023CF /* Debug */,
